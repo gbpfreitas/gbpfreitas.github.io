@@ -124,3 +124,169 @@
   }
   
 }
+
+/*TABLET MEDIA*/
+@media only screen and (min-width: 700px) {
+  body{
+    background-image: url("../img/wallpaper-1.jpg");
+    background-repeat: round;
+    background-size: cover;
+    background-color: rgba(105, 102, 102, 0.5);
+  } 
+  /*A TAG CSS*/    
+  [class*="tab-"]{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 2%;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes tab-menu {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes tab-menu {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  .tab-menu {
+    -webkit-animation-name: tab-menu;
+    animation-name: tab-menu;
+  }
+
+  @-webkit-keyframes tab-content {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes tab-content {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  @-webkit-keyframes tab-title {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes tab-title {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  a{
+    color:ghostwhite;
+    text-decoration-line: none;
+    font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino, serif';
+    display: block;
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+  }
+
+  .table-img{
+    width: 100%;
+    margin-top: 8%;
+    margin-left: 18%;
+  }
+  .mob-img{
+    float: left;
+    top: 0%;
+    width: 40%;
+    margin: 0%;
+    margin-left: 0%;
+    text-align: center;
+  }
+  
+  .html-logo{
+    width: 25%;
+    height: 25%;
+  }
+  .css-logo{
+    width: 25%;
+    height: 25%;
+  }
+  .js-logo{
+    width: 25%;
+    height: 25%;
+  }
+  .java-logo{
+    width: 25%;
+    height: 25%;
+  }
+  .php-logo{
+    width: 45%;
+    height: 45%;
+  }
+  .python-logo{
+    width: 25%;
+    height: 25%;
+  }
+  .wordpress-logo{
+    width: 35%;
+    height: 35%;
+  }
+
+  [class*="btn-"]{
+    width: 28%;
+    float: left;
+    display: block;
+    margin: 2%;
+    padding: 0.5%;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(45, 46, 46, 0.5);
+  }
+
+  .btn-header{
+    width: 70%;
+    margin: 0%;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(211, 219, 219, 0.9);
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+  }
+  .selected{
+    color: black;
+    background-color: rgba(211, 219, 219, 0.9);
+  }
+  /*A TAG CSS END*/
+
+  /*RIGHT CONTENT*/
+  .tab-right{
+    float: right;
+    margin-top: 0%;
+    width: 50%;
+  }  
+  .tab-title{
+    width: 100%;
+    color: black;
+    background-color: rgba(211, 219, 219, 0.9);
+    display: block;
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+    font-size: 20px;
+    text-align: center;
+    -webkit-animation-name: tab-title;
+    animation-name: tab-title;
+  }
+  .tab-content{
+    color: ghostwhite;
+    width: 100%;
+    background-color: rgba(45, 46, 46, 0.9);
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+    -webkit-animation-name: tab-content;
+    animation-name: tab-content;
+  }
+    
+  p{
+    font-size: 16px;
+  }
+  
+}
