@@ -1,0 +1,126 @@
+/*MOBILE MEDIA*/
+@media only screen and (min-width: 200px) {
+  body{
+    background-image: url("../img/wallpaper-1.jpg");
+    background-repeat: round;
+    background-size: cover;
+    background-color: rgba(105, 102, 102, 0.5);
+  } 
+  /*A TAG CSS*/    
+  [class*="mob-"]{
+    width: 80%;
+    margin: 4%;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+
+  @-webkit-keyframes mob-menu {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes mob-menu {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  .mob-menu {
+    -webkit-animation-name: mob-menu;
+    animation-name: mob-menu;
+  }
+
+  @-webkit-keyframes mob-content {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes mob-content {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  @-webkit-keyframes mob-title {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  @keyframes mob-title {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  a{
+    color:ghostwhite;
+    text-decoration-line: none;
+    font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino, serif';
+    display: block;
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+  }
+
+  [class*="btn-"]{
+    width: 39%;
+    float: left;
+    display: block;
+    margin: 4%;
+    padding: 0.5%;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgba(45, 46, 46, 0.5);
+  }
+
+  .btn-header{
+    width: 100%;
+    margin: 0%;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(211, 219, 219, 0.9);
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+  }
+  .selected{
+    color: black;
+    background-color: rgba(211, 219, 219, 0.9);
+  }
+  /*A TAG CSS END*/
+
+  /*RIGHT CONTENT*/
+  .mob-right{
+    float: left;
+    margin-left: 5%;
+    top: 10%;
+    width: 80%;
+    
+  }  
+  .mob-title{
+    width: 82%;
+    color: black;
+    background-color: rgba(211, 219, 219, 0.9);
+    display: block;
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+    font-size: 20px;
+    text-align: center;
+    -webkit-animation-name: mob-title;
+    animation-name: mob-title;
+  }
+  .mob-content{
+    color: ghostwhite;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 80%;
+    background-color: rgba(45, 46, 46, 0.9);
+    display: block;
+    border: 2px;
+    border-color: rgba(0,0,0,0.7);
+    border-style: solid;
+    -webkit-animation-name: mob-content;
+    animation-name: mob-content;
+  }
+    
+  p{
+    font-size: 16px;
+  }
+  
+}
