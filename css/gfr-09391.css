@@ -164,6 +164,7 @@
     
   p{
     font-size: 16px;
+    margin: 2%;
   }
 
   [class*="form-"]{
@@ -204,13 +205,13 @@
 
   ol, li{
     font-size: 12px;
-    margin: 2%;
+    margin: 1%;
+    margin-left: 0%;
     margin-top: 5%;
   }
 
   .text-ul{
-    margin-left: 2%;
-    margin-top: 5%;
+    margin-top: 1%;
     list-style-type: none;
     font-size: 12px;
   }
@@ -223,7 +224,7 @@
     border-color: black;
     border-style: solid;
     padding: 1%;
-    background-color: rgba(105, 102, 102, 0.5);
+    background-color: transparent;
   }
   
 }
@@ -394,7 +395,7 @@
     
   p{
     font-size: 20px;
-    padding: 1%;
+    margin: 1%;
   }
   
   [class*="form-"]{
@@ -440,7 +441,7 @@
   }
 
   .text-ul{
-    margin-left: 2%;
+    margin-left: 1%;
     margin-top: 5%;
     list-style-type: none;
     font-size: 18px;
@@ -616,6 +617,7 @@
     
   p{
     font-size: 24px;
+    margin: 1%;
   }
 
   [class*="form-"]{
